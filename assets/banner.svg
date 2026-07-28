@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0a0e14"/>
+<stop offset="55%" stop-color="#121821"/>
+<stop offset="100%" stop-color="#1a0e0e"/>
+</linearGradient>
+<radialGradient id="glow" cx="78%" cy="45%" r="55%">
+<stop offset="0%" stop-color="#ff5a2e" stop-opacity="0.35"/>
+<stop offset="60%" stop-color="#ff5a2e" stop-opacity="0.08"/>
+<stop offset="100%" stop-color="#ff5a2e" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#ff8a3d"/>
+<stop offset="100%" stop-color="#ff2e4d"/>
+</linearGradient>
+<linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ffffff"/>
+<stop offset="100%" stop-color="#ffd7c2"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+<rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+<g opacity="0.08" stroke="#ff8a3d" stroke-width="1">
+<line x1="0" y1="60" x2="1200" y2="60"/>
+<line x1="0" y1="120" x2="1200" y2="120"/>
+<line x1="0" y1="180" x2="1200" y2="180"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="300" x2="1200" y2="300"/>
+<line x1="150" y1="0" x2="150" y2="360"/>
+<line x1="300" y1="0" x2="300" y2="360"/>
+<line x1="450" y1="0" x2="450" y2="360"/>
+<line x1="600" y1="0" x2="600" y2="360"/>
+<line x1="750" y1="0" x2="750" y2="360"/>
+<line x1="900" y1="0" x2="900" y2="360"/>
+<line x1="1050" y1="0" x2="1050" y2="360"/>
+</g>
+
+<g transform="translate(905,180)">
+<circle r="130" fill="none" stroke="url(#ringGrad)" stroke-width="2" opacity="0.5"/>
+<circle r="98" fill="none" stroke="#ff5a2e" stroke-width="1.5" opacity="0.35"/>
+<circle r="62" fill="none" stroke="#ffb27a" stroke-width="2" opacity="0.6"/>
+<circle r="6" fill="#ff2e4d"/>
+<line x1="-150" y1="0" x2="-75" y2="0" stroke="url(#ringGrad)" stroke-width="3"/>
+<line x1="75" y1="0" x2="150" y2="0" stroke="url(#ringGrad)" stroke-width="3"/>
+<line x1="0" y1="-150" x2="0" y2="-75" stroke="url(#ringGrad)" stroke-width="3"/>
+<line x1="0" y1="75" x2="0" y2="150" stroke="url(#ringGrad)" stroke-width="3"/>
+<polygon points="0,-98 -8,-82 8,-82" fill="#ff2e4d" opacity="0.85"/>
+<polygon points="0,98 -8,82 8,82" fill="#ff2e4d" opacity="0.85"/>
+<polygon points="-98,0 -82,-8 -82,8" fill="#ff2e4d" opacity="0.85"/>
+<polygon points="98,0 82,-8 82,8" fill="#ff2e4d" opacity="0.85"/>
+<circle r="130" fill="none" stroke="#ff2e4d" stroke-width="1" stroke-dasharray="4 10" opacity="0.5">
+</circle>
+</g>
+
+<g opacity="0.55">
+<line x1="1000" y1="60" x2="1140" y2="60" stroke="#ff5a2e" stroke-width="1"/>
+<line x1="1000" y1="60" x2="1000" y2="90" stroke="#ff5a2e" stroke-width="1"/>
+<line x1="1140" y1="60" x2="1140" y2="90" stroke="#ff5a2e" stroke-width="1"/>
+<line x1="670" y1="300" x2="810" y2="300" stroke="#ff5a2e" stroke-width="1"/>
+<line x1="670" y1="300" x2="670" y2="270" stroke="#ff5a2e" stroke-width="1"/>
+<line x1="810" y1="300" x2="810" y2="270" stroke="#ff5a2e" stroke-width="1"/>
+</g>
+
+<polygon points="60,300 1140,300 1080,315 60,315" fill="#ff2e4d" opacity="0.08"/>
+
+<g>
+<rect x="60" y="82" width="10" height="10" fill="#ff2e4d"/>
+<text x="80" y="92" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#ff8a3d" letter-spacing="3">AIM ASSIST // LOCK-ON MODULE</text>
+</g>
+
+<text x="60" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="url(#txt)" textLength="900" lengthAdjust="spacingAndGlyphs">Overwatch 2 Triggerbot</text>
+
+<text x="60" y="228" font-family="'Segoe UI', Arial, sans-serif" font-size="24" fill="#e8c9b8" opacity="0.9" textLength="760" lengthAdjust="spacingAndGlyphs">Trigger shots instantly on target detection for Overwatch 2</text>
+
+<g opacity="0.7">
+<circle cx="80" cy="270" r="4" fill="#ff2e4d"/>
+<text x="95" y="275" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#ffb27a">TARGET LOCKED</text>
+<circle cx="260" cy="270" r="4" fill="#3dffb0"/>
+<text x="275" y="275" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#a8f0d6">SUB-MS LATENCY</text>
+</g>
+</svg>
